@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>THE_BRIJWASI_FOUNDATION</title>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="BugakiRegular-514J8.ttf" rel="stylesheet">
     <style>
         .font-shrikhand {
             font-family: 'Shrikhand', sans-serif;
@@ -25,8 +25,8 @@
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <img src="logos/logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12 text-white p-2 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </img>
-        <span class="ml-3 text-xl font-shrikhand">The Brijwasi Foundation</span>
+        </img>
+        <span class="ml-3 text-xl font-shrikhand" style="color: #10462e;">The Brijwasi Foundation</span>
       </a>
       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
         <a class="mr-5 hover:text-white-900" href="index.html" style="position: relative; text-decoration: none; color: inherit;">
@@ -42,7 +42,7 @@
         <a href="https://www.instagram.com/the.brijwasi.foundation/" target="_blank" class="mr-4">
           <img src="logos/instagram.png" alt="Instagram" class="w-8 h-8">
         </a>
-        <a href="https://www.linkedin.com/company/brijwasifoundation" target="_blank" class="mr-4">
+        <a href="https://www.linkedin.com/company/the-brijwasi-foundation/people/" target="_blank" class="mr-4">
           <img src="logos/linkedin.png" alt="LinkedIn" class="w-8 h-8 object-contain">
         </a>
         <a href="https://linktr.ee/The.Brijwasi.Foundation" target="_blank" class="mr-4">
@@ -58,18 +58,21 @@
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+            <img class="object-cover object-center rounded" alt="hero" src="logos/logo.png">
           </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-end md:text-left items-left text-left">
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-left text-left">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium" style="color: #f7e9ca;">ABOUT US</h1>
-            <p class="mb-8 leading-relaxed" style="color: #7e8c60;">TEXT 1</p>
+            <p class="mb-8 leading-relaxed" style="color: #7e8c60;">With a mission to help everyone around us and a focus on SDG 2: Zero Hunger, The Brijwasi Foundation was founded by Prisha Singh in November 2023. We are committed to making the world better through acts of kindness and holding distribution drives.<br> To date, we have positively impacted over 1,300 people and animals by providing essential resources such as whole grains, cooked food, water, clothes etc. Join us in our mission to eradicate hunger and create a brighter tomorrow for all. We need your support to move forward and help as many as we can.</p>
             <div class="flex justify-center">
               <a href="https://linktr.ee/The.Brijwasi.Foundation" target="_blank">
-                <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none font-bold" style="background-color: #f0ab2f; transition: background-color 0.3s ease; color: #10462e;"
-                onmouseover="this.style.backgroundColor='#d89425';"
-                onmouseout="this.style.backgroundColor='#f0ab2f';">
-                KNOW MORE
-              </button>
+                <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none font-bold"
+                  style="background-color: #f0ab2f; transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; color: #10462e; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+                  onmouseover="this.style.backgroundColor='#d89425'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.15)';"
+                  onmouseout="this.style.backgroundColor='#f0ab2f'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+                  onmousedown="this.style.backgroundColor='#bf7e20'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+                  onmouseup="this.style.backgroundColor='#d89425'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.15)';">
+                    KNOW MORE
+                </button>
               </a>
             </div>
           </div>
@@ -77,131 +80,94 @@
       </section>      
 
       <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+        <div class="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+            <img class="object-cover object-center rounded-lg" alt="hero" src="logos/prisha.png" style="width: 100%; height: auto;">
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium" style="color: #f7e9ca;">ABOUT US</h1>
-            <p class="mb-8 leading-relaxed" style="color: #7e8c60;">TEXT 1</p>
-          </div>
-        <div class="flex flex-wrap justify-center lg:justify-start lg:pl-8">
-            <img class="w-32 h-32 object-cover object-center rounded m-2" src="https://dummyimage.com/400x400" alt="image1">
-            <img class="w-32 h-32 object-cover object-center rounded m-2" src="https://dummyimage.com/400x400" alt="image2">
-            <img class="w-32 h-32 object-cover object-center rounded m-2" src="https://dummyimage.com/400x400" alt="image3">
-            <img class="w-32 h-32 object-cover object-center rounded m-2" src="https://dummyimage.com/400x400" alt="image4">
-          </div>
-        </div>
-      </section>
-      
-      <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="flex flex-wrap justify-center lg:justify-start lg:pl-8">
-            <img class="w-32 h-32 object-cover object-center rounded m-2" src="https://dummyimage.com/400x400" alt="image1">
-            <img class="w-32 h-32 object-cover object-center rounded m-2" src="https://dummyimage.com/400x400" alt="image2">
-            <img class="w-32 h-32 object-cover object-center rounded m-2" src="https://dummyimage.com/400x400" alt="image3">
-            <img class="w-32 h-32 object-cover object-center rounded m-2" src="https://dummyimage.com/400x400" alt="image4">
-          </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium" style="color: #f7e9ca;">ABOUT FOUNDER</h1>
-            <p class="mb-8 leading-relaxed" style="color: #7e8c60;">TEXT 1</p>
-          </div>
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium" style="color: #f7e9ca;">ABOUT OUR FOUNDER</h1>
+            <p class="mb-8 leading-relaxed" style="color: #7e8c60;">Our Founder and President, Prisha Singh aspires to bring a positive change in society. She is currently in 12th Grade and is devoted to the commitments of the NGO.<br>Prisha has been actively involved in various social activities since her early childhood. Her passion for helping others has driven her to establish this NGO, which aims to address various social issues and uplift the underprivileged sections of society.<br>Under her leadership, the NGO has successfully launched numerous initiatives focused on education, healthcare, and women empowerment. Prisha's dedication and hard work continue to inspire many young individuals to join the cause and make a difference.</p>
           </div>
         </div>
       </section>      
 
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
-            <div class="flex w-full mb-20 flex-wrap justify-between">
-                <div class="lg:w-5/12 w-full mb-10 lg:mb-0">
+            <div class="flex flex-wrap -m-4 justify-between">
+                <div class="p-4 lg:w-1/3 md:w-1/2 w-full">
                     <h1 class="sm:text-4xl text-3xl font-medium title-font" style="color: #f7e9ca;">CONTRIBUTE</h1>
                     <p class="mt-4 mb-8 text-lg" style="color: #7e8c60;">Join us in making a difference by volunteering your time and skills.</p>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9vdRYFpQoS2rVcl0lyRQv5N7DF5iuwLE5dCCZM-olwBPTfA/viewform?pli=1&pli=1" target="_blank">
-                        <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none font-bold" style="background-color: #f0ab2f; transition: background-color 0.3s ease; color: #10462e;"
-                        onmouseover="this.style.backgroundColor='#d89425';"
-                        onmouseout="this.style.backgroundColor='#f0ab2f';">
-                          VOLUNTEER
-                        </button>
+                      <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none font-bold"
+                      style="background-color: #f0ab2f; transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; color: #10462e; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+                      onmouseover="this.style.backgroundColor='#d89425'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.15)';"
+                      onmouseout="this.style.backgroundColor='#f0ab2f'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+                      onmousedown="this.style.backgroundColor='#bf7e20'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+                      onmouseup="this.style.backgroundColor='#d89425'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.15)';">
+                        VOLUNTEER
+                    </button>
                     </a>
                 </div>
-                <div class="lg:w-5/12 w-full">
+                <div class="p-4 lg:w-1/3 md:w-1/2 w-full">
                     <h1 class="sm:text-4xl text-3xl font-medium title-font" style="color: #f7e9ca;">CONTRIBUTE</h1>
                     <p class="mt-4 mb-8 text-lg" style="color: #7e8c60;">Support our cause by making a donation to help those in need.</p>
                     <a href="https://milaap.org/fundraisers/support-underprivileged-people-and-animals/deeplink?deeplink_type=paytm" target="_blank">
-                        <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none font-bold" style="background-color: #f0ab2f; transition: background-color 0.3s ease; color: #10462e;"
-                        onmouseover="this.style.backgroundColor='#d89425';"
-                        onmouseout="this.style.backgroundColor='#f0ab2f';">
-                          DONATE
-                        </button>
+                      <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none font-bold"
+                      style="background-color: #f0ab2f; transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; color: #10462e; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+                      onmouseover="this.style.backgroundColor='#d89425'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.15)';"
+                      onmouseout="this.style.backgroundColor='#f0ab2f'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+                      onmousedown="this.style.backgroundColor='#bf7e20'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+                      onmouseup="this.style.backgroundColor='#d89425'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.15)';">
+                        DONATE
+                    </button>
+                    </a>
+                </div>
+                <div class="p-4 lg:w-1/3 md:w-1/2 w-full">
+                    <h1 class="sm:text-4xl text-3xl font-medium title-font" style="color: #f7e9ca;">CONTRIBUTE</h1>
+                    <p class="mt-4 mb-8 text-lg" style="color: #7e8c60;">Be part of the change by getting in touch with us to contribute in other ways.</p>
+                    <a href="xontactus.html" target="_blank">
+                      <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none font-bold"
+                      style="background-color: #f0ab2f; transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; color: #10462e; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+                      onmouseover="this.style.backgroundColor='#d89425'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.15)';"
+                      onmouseout="this.style.backgroundColor='#f0ab2f'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+                      onmousedown="this.style.backgroundColor='#bf7e20'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+                      onmouseup="this.style.backgroundColor='#d89425'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.15)';">
+                        CONTACT
+                    </button>
                     </a>
                 </div>
             </div>
         </div>
-    </section>     
-      
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <div class="flex w-full mb-20 flex-wrap">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font lg:w-1/3 lg:mb-0 mb-4" style="color: #f7e9ca;">Master Cleanse Reliac Heirloom</h1>
-            <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base" style="color: #7e8c60;">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
-          </div>
-          <div class="flex flex-wrap md:-m-2 -m-1">
-            <div class="flex flex-wrap w-1/2">
-              <div class="md:p-2 p-1 w-1/2">
-                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300">
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301">
-              </div>
-              <div class="md:p-2 p-1 w-full">
-                <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360">
-              </div>
-            </div>
-            <div class="flex flex-wrap w-1/2">
-              <div class="md:p-2 p-1 w-full">
-                <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361">
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302">
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    </section>      
 
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div class="h-full text-center">
-                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/302x302">
-                <p class="leading-relaxed" style="color: #7e8c60;">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="credits/sachinmourya.jpg">
+                <p class="leading-relaxed" style="color: #7e8c60;">Thank you so much Prisha and team for the work you do!<br>I have seen the good work that you do, to help the poor and providing food to them on a regular basis. I like it because it’s efficient, dedicated, honest and its spiritually motivated.<br>There is no substitute for seeing firsthand the hardships these people endure, and the smile that "The Brijwasi foundation" brings to their lives.<br>Keep up the good work Prisha...so proud of you 👏</p>
                 <span class="inline-block h-1 w-10 rounded mt-6 mb-4" style="background-color: #f0ab2f;"></span>
-                <h2 class="font-medium title-font tracking-wider text-sm" style="color: #f7e9ca;">HOLDEN CAULFIELD</h2>
-                <p style="color: #7e8c60;">Senior Product Designer</p>
+                <h2 class="font-medium title-font tracking-wider text-sm" style="color: #f7e9ca;">Sachin Mourya</h2>
+                <p style="color: #7e8c60;">Rsystems, Dallas, USA</p>
               </div>
             </div>
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div class="h-full text-center">
-                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300">
-                <p class="leading-relaxed" style="color: #7e8c60;">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="credits/pritijainsingh.jpg">
+                <p class="leading-relaxed" style="color: #7e8c60;">As someone closely connected to the founder and the namesake of The Brijwasi Foundation, I have witnessed all the good they have done and have volunteered with them myself. Seeing the smiles of little children and people after giving them food is worth every effort put in.<br>No one deserves to go to bed on a hungry stomach, and this foundation is working tirelessly to diminish that number to the best of their abilities.</p>
                 <span class="inline-block h-1 w-10 rounded mt-6 mb-4" style="background-color: #f0ab2f;"></span>
-                <h2 class="font-medium title-font tracking-wider text-sm" style="color: #f7e9ca;">ALPER KAMU</h2>
-                <p style="color: #7e8c60;">UI Develeoper</p>
+                <h2 class="font-medium title-font tracking-wider text-sm" style="color: #f7e9ca;">Priti Jain Singh</h2>
+                <p style="color: #7e8c60;">Rockwell Automation, Uttar Pradesh, Indiar</p>
               </div>
             </div>
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div class="h-full text-center">
-                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300">
-                <p class="leading-relaxed" style="color: #7e8c60;">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="credits/suhanivats.jpg">
+                <p class="leading-relaxed" style="color: #7e8c60;">I absolutely loved my time at The Brijwasi Foundation. The working environment fostered collaboration, passion, and dedication toward our shared mission. From the supportive team dynamics to the inspiring leadership, every aspect of the NGO building gave me a sense of clarity on how a working environment looks like. I loved the opportunities to make a meaningful impact and contribute to positive change in the world. The sense of shared commitment among every core member and volunteers made every day a joy to come to work. I'm truly grateful for my time at The Brijwasi Foundation and the valuable experiences they provided me with.</p>
                 <span class="inline-block h-1 w-10 rounded mt-6 mb-4" style="background-color: #f0ab2f;"></span>
-                <h2 class="font-medium title-font tracking-wider text-sm" style="color: #f7e9ca;">ALPER KAMU</h2>
-                <p style="color: #7e8c60;">UI Develeoper</p>
+                <h2 class="font-medium title-font tracking-wider text-sm" style="color: #f7e9ca;">Suhani Vats</h2>
+                <p style="color: #7e8c60;">Ex Member, Gurugram</p>
               </div>
             </div>
           </div>
@@ -214,7 +180,7 @@
             <img src="logos/logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12 text-white p-2 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </img>
-            <span class="ml-3 text-xl font-shrikhand">The Brijwasi Foundation</span>
+            <span class="ml-3 text-xl font-shrikhand" style="color: #10462e;">The Brijwasi Foundation</span>
           </a>
           <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
             <a class="mr-5 hover:text-white-900" href="index.html" style="position: relative; text-decoration: none; color: inherit;">
@@ -230,7 +196,7 @@
             <a href="https://www.instagram.com/the.brijwasi.foundation/" target="_blank" class="mr-4">
               <img src="logos/instagram.png" alt="Instagram" class="w-8 h-8">
             </a>
-            <a href="https://www.linkedin.com/company/brijwasifoundation" target="_blank" class="mr-4">
+            <a href="https://www.linkedin.com/company/the-brijwasi-foundation/people/" target="_blank" class="mr-4">
               <img src="logos/linkedin.png" alt="LinkedIn" class="w-8 h-8 object-contain">
             </a>
             <a href="https://linktr.ee/The.Brijwasi.Foundation" target="_blank" class="mr-4">
@@ -243,9 +209,9 @@
         </div>
         <div class="container mx-auto py-5 flex flex-col md:flex-row items-center">
           <div class="md:w-1/3 text-center md:text-left mb-4 md:mb-0 pl-5"> 
-            <p class="text-gray-900">1234 Street Name, City, State, 56789</p>
-            <p class="text-gray-900">Email: contact@brijwasifoundation.org</p>
-            <p class="text-gray-900">Phone: (123) 456-7890</p>
+            <p class="text-gray-900">Delhi // Gurugram // Noida</p>
+            <p class="text-gray-900">Email: the.brijwasi.foundation@gmail.com</p>
+            <p class="text-gray-900">Phone: +91 98112 82850</p>
           </div>
           <div class="md:w-1/3 text-center md:text-right">
             <p class="text-gray-900">&copy; 2024 The Brijwasi Foundation. All rights reserved.</p>
