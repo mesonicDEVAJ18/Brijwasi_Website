@@ -1,0 +1,1 @@
+This folder contains all dependencies expected from album.html and the dependencies for the dependencies.
