@@ -1,0 +1,1 @@
+The folder contains all images used in credits.html and index.html
